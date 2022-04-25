@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
 
+
 // Array of questions 
 const questions = [
     {
@@ -16,12 +17,6 @@ const questions = [
         type: 'input',
         name: 'title',
         message: 'Please write a short project description',
-
-    },
-    {
-        type: 'input',
-        name: 'title',
-        message: 'What is ',
 
     },
     {
