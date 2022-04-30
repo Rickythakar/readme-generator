@@ -6,4 +6,4 @@ fs
 inquirer
 
 
-A video demonstration of the project can be found [!here](https://drive.google.com/file/d/1ZjbzqffO_1vWwHqkJNAQq_qNhsAbqvAa/view)
+A video demonstration of the project can be found [here](https://drive.google.com/file/d/1ZjbzqffO_1vWwHqkJNAQq_qNhsAbqvAa/view)
