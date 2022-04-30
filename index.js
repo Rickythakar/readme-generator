@@ -7,45 +7,61 @@ const generateMarkdown = require('./utils/generateMarkdown')
 // Array of questions 
 const questions = [
     {
-        type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
-        // return if they leave this part blank
         
+            //question1 - project title will apear at top of read me
+            type: 'input',
+            name: 'title',
+            message: 'What is project title?',
+        },
+        {
+            //question2 - description will appear under title
+            type: 'input',
+            name: 'description',
+            message: 'Please write a short descriptioin of your project?',
+        },
+        {
+        //question3
+        type: 'input',
+        name: 'installation',
+        message: 'What is your GitHub user name?',
     },
     {
+        //question4
         type: 'input',
-        name: 'title',
-        message: 'Please write a short project description',
-
+        name: 'usage',
+        message: 'What is your email address? ',
     },
     {
+        //question5
         type: 'input',
-        name: 'title',
-        message: 'What is ',
-
+        name: 'license',
+        message: 'What kind of license does your project have?',
     },
     {
+        //question6
         type: 'input',
-        name: 'title',
-        message: 'What is ',
-
+        name: 'install',
+        message: 'What command should I run to install dependecies?',
     },
     {
+        //question7
         type: 'input',
-        name: 'title',
-        message: 'What is ',
-
+        name: 'tests',
+        message: 'What command should be run for tests?',
     },
     {
+        //question8
         type: 'input',
-        name: 'title',
-        message: 'What is ',
-
+        name: 'usage',
+        message: 'What does your user need to know about using the repository?',
+    },
+    {
+        //question9
+        type: 'input',
+        name: 'contributions',
+        message: 'Who contributed to the repo?',
     },
 ];
-
-//create a variable to grab answers from array
 
 //Function to write README file
 function writeToFile(fileName, data) {
@@ -54,7 +70,6 @@ function writeToFile(fileName, data) {
             console.log(err)}
     })
 };
-
 // Create a function to initialize app
  function init() { 
      inquirer.prompt(questions)
@@ -62,6 +77,5 @@ function writeToFile(fileName, data) {
     writeToFile("readMe.md", generateMarkdown({...inquirerResponses}) 
     )}
     )};
-
 // Function call to initialize app
 init();
