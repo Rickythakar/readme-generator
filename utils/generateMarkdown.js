@@ -56,8 +56,6 @@ function generateMarkdown(data) {
   ### Please contact me at the email below for any further questions
   ${data.email}
 
-
-  
 `;
 };
 module.exports = generateMarkdown;
