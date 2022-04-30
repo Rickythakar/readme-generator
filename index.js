@@ -17,7 +17,7 @@ const questions = [
             //question2 - description will appear under title
             type: 'input',
             name: 'description',
-            message: 'Please write a short descriptioin of your project?',
+            message: 'Please write a short description of your project?',
         },
         {
         //question3
@@ -28,15 +28,16 @@ const questions = [
     {
         //question4
         type: 'input',
-        name: 'usage',
+        name: 'email',
         message: 'What is your email address? ',
     },
     {
         //question5
-        type: 'input',
-        name: 'license',
-        message: 'What kind of license does your project have?',
-    },
+            type: 'list',
+            name: 'license',
+            message: 'What kind of license should your project have?',
+            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+          },
     {
         //question6
         type: 'input',

@@ -1,21 +1,34 @@
 # Title
 
-  ## Description,
-  description
+  ## Project Description
+  ASDF
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributions](#contributions) 
-  * [License](#license)
+  * [Licensing](#licensing)
+  * [Questions](#questions)
   
   ## Installation
-  npm i
+  ### Find me on GitHub
+  ASDFDFSADF
+
+
+  ### Required Dependencies
+  ASDFASDFASDFASDFASDFASDF
 
   ## Usage
-  used to create readmes
+  ASDFASDFASDF
 
   ## Contributions
-  i did
+  ASDFASDFASDF
 
   ## License
-  git
+  MIT
+  
+  ## Questions
+  ### Please contact me at the email below for any further questions
+  ASDFASDFASDF
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
